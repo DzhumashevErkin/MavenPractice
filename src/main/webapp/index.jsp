@@ -8,7 +8,12 @@
 </H1>
 
 <p>
-<h1>${myAttr}</h1>
+    <h1>${myAttr}</h1>
+</p>
+
+<p>
+    <%=request.getParameter("fio")%>
+    <%=request.getParameter("profile")%>
 </p>
 </body>
 </html>
