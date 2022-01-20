@@ -15,4 +15,6 @@ public class MyServlet extends HttpServlet {
         req.setAttribute("myAttr","Java");
         req.getRequestDispatcher("index.jsp").forward(req,resp);
     }
+
+
 }
