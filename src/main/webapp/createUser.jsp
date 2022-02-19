@@ -11,21 +11,29 @@
     <title>DZApplication</title>
 </head>
 <body>
-    <form action="${pageContext.request.contextPath}/createUser" method="post">
-        <p>Login
+<form action="${pageContext.request.contextPath}/createUser" method="post">
+    <p>Login
+        <label>
             <input type="text" name="login">
-        </p>
-        <p>Password
+        </label>
+    </p>
+    <p>Password
+        <label>
             <input type="password" name="login">
-        </p>
-        <p>Email
+        </label>
+    </p>
+    <p>Email
+        <label>
             <input type="text" name="email">
-        </p>
-        <p>Is Male?
+        </label>
+    </p>
+    <p>Is Male?
+        <label>
             <input type="checkbox" value="false" name="isMale">
-        </p>
+        </label>
+    </p>
 
-        <input type="submit" name="submit">
-    </form>
+    <input type="submit" name="submit">
+</form>
 </body>
 </html>
